@@ -1,0 +1,12 @@
+@import "core/_reset";
+@import "core/_base";
+
+@import "component/**/**_pc.scss";
+@import "project/**/**_pc.scss";
+
+@media only screen and (max-width: 896px) {
+  // component sp
+  @import "component/**/**_sp.scss";
+  // // page sp
+  @import "project/**/**_sp.scss";
+}

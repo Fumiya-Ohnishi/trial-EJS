@@ -1,0 +1,38 @@
+.p-question {
+  padding: 190px 0 279px 0;
+  background: #f4f6f6;
+
+  &Area{
+    width: 57%;
+    margin: 0 auto 104px;
+  }
+
+  &__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 0;
+    width: 290px;
+    background: #5FB1DE;
+    text-decoration: none;
+    color: #fff;
+    font-family: $font_sans;
+    font-weight: $medium;
+    font-size: 2.7rem;
+    border-radius: 3px;
+    box-shadow: 4px 4px 0  rgba(0, 0, 0, .1);
+
+    &::after{
+      content: "";
+      width: 47px;
+      height: 12px;
+      margin-left: 20px;
+      background: url(/assets/img/top/ico-arrow.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+  }
+}

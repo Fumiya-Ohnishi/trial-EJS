@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <%- include('layout/_head'); %>
+
+  <body>
+    <!--/ ===== main START ===== /-->
+
+    <main role="main">
+      <div class="p-question">
+        <%- include('component/_title',{
+          ttl:"Q&amp;A",
+          subTtl: "よくある質問"
+        })%>
+        <div class="p-questionArea">
+          <%- include('component/_accordion',{
+            ttl:"大体の見積り金額を電話で教えてもらえますか？",
+            txt:"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          });%> 
+          <%- include('component/_accordion',{
+            ttl:"もともと貼ってあるフィルムはいくらで剥がしてもらえますか？",
+            txt:"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          });%> 
+          <%- include('component/_accordion',{
+            ttl:"途中でキャンセルもしくはフィルムの変更は可能ですか？",
+            txt:"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          });%> 
+          <%- include('component/_accordion',{ 
+            ttl:"土日祝日でも施工していますか？",
+            txt:"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          });%> 
+          <%- include('component/_accordion',{
+            ttl:"引越後でもガラスフィルムの施工は可能ですか？",
+            txt:"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          });%> 
+          <%- include('component/_accordion',{
+            ttl:"現物サンプルを見たい時にはどうすれば良いですか？",
+            txt:"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          });%>
+        </div>
+
+        <a href="#" class="p-question__link">Q&amp;A</a>
+      </div>
+    </main>
+
+    <!--/ ===== main  END  ===== /-->
+
+    <!--/ ===== footer START ===== /-->
+
+    <!--/ ===== footer  END  ===== /-->
+
+    <!-- js -->
+    <script src="/assets/js/libs-index.js"></script>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

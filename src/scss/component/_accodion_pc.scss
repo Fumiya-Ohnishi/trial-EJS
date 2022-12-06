@@ -1,0 +1,51 @@
+.c-acc {
+  margin-bottom: 16px;
+  padding: 24px 29px;
+  background: #fff;
+
+  &__ttl {
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: $font_sans;
+    font-weight: $normal;
+
+    &::before {
+      content: '';
+      width: 22px;
+      min-width: 22px;
+      height: 40px;
+      margin-right: 21px;
+      background: url(/assets/img/top/ico-question.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &::after {
+      content: '';
+      width: 21px;
+      min-width: 21px;
+      height: 21px;
+      margin-left: auto;
+      background: url(/assets/img/top/ico-plus.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    & span {
+      margin-right: 8px;
+    }
+  }
+
+  &__txt {
+    display: none;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    font-family: $font_sans;
+    font-weight: $normal;
+    &.is-active {
+      display: block;
+    }
+  }
+}

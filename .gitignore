@@ -1,0 +1,9 @@
+.DS_Store
+/.idea
+/.vscode
+/_gulp/node_modules
+/dest/*.html
+/dest/**/*.html
+/dest/assets/css
+/dest/assets/img
+/dest/assets/js

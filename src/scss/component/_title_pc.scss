@@ -1,0 +1,30 @@
+.c-ttlArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 21px;
+
+  &::after {
+    content: '';
+    width: 72px;
+    height: 2px;
+    margin-top: 42px;
+    background: #5fb1de;
+  }
+
+  &__ttl {
+    margin-bottom: 14px;
+    font-size: 4rem;
+    font-family: $font_sans;
+    font-weight: $bold;
+    text-align: center;
+  }
+
+  &__subTtl {
+    font-size: 1.3rem;
+    font-family: $font_sans;
+    font-weight: $normal;
+    text-align: center;
+  }
+}
